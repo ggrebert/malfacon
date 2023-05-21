@@ -79,6 +79,13 @@ info:
     * [Attachment](https://ggrebert.github.io/before-interop-common/?urls.primaryName=Attachment)
     * [Note](https://ggrebert.github.io/before-interop-common/?urls.primaryName=Note)
 
+    ## Diagrams
+
+    <pre class="mermaid">
+    graph LR
+      Start --> Stop
+    </pre>
+
 servers:
 - url: '{protocol}://{host}:{port}{basePath}/malfacon'
   variables:
